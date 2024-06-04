@@ -1,0 +1,63 @@
+.sidebar {
+    width: 250px; /* wider sidebar */
+    transition: width 0.3s ease;
+    background-color: lightcoral ; /* Adjust color as needed */
+    height: 100vh;
+    position: fixed; /* Full-height sidebar */
+}
+
+.sidebar-section {
+    display: flex;
+    height: 100vh;
+    background-color: white;
+}
+
+.sidebar-toggle {
+    width: 90px; /* narrower sidebar */
+    transition: width 0.3s ease;
+    background-color: lightcoral; /* Same color, different width */
+    height: 100vh;
+}
+
+.container {
+    transition: margin-left 0.3s ease; /* Smooth transition for content */
+}
+
+.container-expanded {
+    margin-left: 250px; /* Adjust margin when sidebar is expanded */
+}
+
+.container-collapsed {
+    margin-left: 90px; /* Adjust margin when sidebar is collapsed */
+}
+
+
+
+/* Sidebar links styling */
+.nav-item .nav-link {
+    color: #FFFFFF; /* White text color */
+    padding: 10px 15px; /* Padding for better touch interaction */
+    margin-top: 5px; /* Space between links */
+    display: block; /* Ensures that the link takes full width of the sidebar */
+}
+
+.nav-item .nav-link:hover, .nav-item .nav-link.active {
+    background-color: #FFFFFF; /* White background on hover/active */
+    color: palevioletred; /* Neon Green text color for contrast */
+    border-radius: 5px; /* Rounded corners for a softer look */
+}
+
+/* Additional hover effects can be added for interactivity */
+.nav-link:hover {
+    transform: scale(1.05); /* Slightly enlarges the link on hover */
+    transition: transform 0.3s ease; /* Smooth scaling transition */
+}
+
+/* Main background for the body or container */
+.body, .container {
+    background-color: #1e1e2c; /* Deep Gray for the main body background */
+    color: #FFFFFF; /* White for text to ensure readability */
+}
+
+
+
