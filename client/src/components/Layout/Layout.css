@@ -52,12 +52,21 @@
     transform: scale(1.05); /* Slightly enlarges the link on hover */
     transition: transform 0.3s ease; /* Smooth scaling transition */
 }
-
-/* Main background for the body or container */
-.body, .container {
-    background-color: #1e1e2c; /* Deep Gray for the main body background */
-    color: #FFFFFF; /* White for text to ensure readability */
+.container {
+    height: 100vh;
+    background: linear-gradient(to bottom, #1e1e2c 50%, #FFFFFF 50%);
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;  /* Ensuring text color is white for the blue part */
 }
+
+.container h1, .container h2 {
+    color: white; /* Dark text color for the white part */
+}
+
+
+
+
 
 
 
