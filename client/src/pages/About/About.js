@@ -10,7 +10,8 @@ const About = () => {
         </div>
         <div className="col-md-6">
             <h1>About me</h1>
-            <p>Hi, I'm Naralachetty Navitha! 🎓 Master of Science in Computer Science | University of Wisconsin Milwaukee 📚 A computer science enthusiast with a rich blend of academic knowledge and practical experience, especially in web development, machine learning, and virtual reality game development. Adept in implementing effective solutions through algorithmic design and robust coding practices.</p>
+
+            <p>Hello! I'm Naralachetty Navitha, a Computer Science professional with a Master of Science degree from the University of Wisconsin-Milwaukee. I specialize in full-stack web development and machine learning, combining theoretical knowledge with practical expertise to build innovative software applications. As a dedicated problem-solver, I am passionate about utilizing my skills in algorithmic design to tackle complex challenges in web development and beyond. I am committed to applying my deep understanding of computer science principles to drive advancements in technology and deliver impactful results.</p>
         </div>
       </div>
     </div>
