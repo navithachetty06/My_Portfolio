@@ -1,0 +1,42 @@
+.about {
+    margin: 40px auto; /* Adds margin top and bottom while centering it */
+    padding: 20px;
+    max-width: 1200px; /* Controls the maximum width of the about section */
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */ /* Aligns items vertically */
+    flex-direction: row;
+}
+
+.about-img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px; /* Controls the size of the image */
+    height: auto;
+    margin-right: 20px; /* Right margin to separate image from text */
+}
+
+.row {
+    align-items: center; /* Vertically centers the contents of the row */
+    justify-content: center;
+    padding: 250px;
+    margin-top: -600px; /* Horizontally centers the contents if needed */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column; /* Stacks the image and content vertically on small screens */
+    }
+
+    .about-img {
+        margin-bottom: 20px; /* Adds space below the image on small screens */
+        max-width: 100%; /* Allows the image to fill the container on smaller screens */
+
+    }
+}
+
+h1 {
+    z-index: 1; /* Make sure it's not covering clickable elements */
+}
+
+

@@ -4,27 +4,44 @@
 
 }
 
-.home-content h1{
+.home-content h2{
     padding: 10px;
     padding-top:80px;
 
 }
 
-.home-content h2{
+.home-content h1{
     color: lightcoral;
     margin-bottom: 110px;
+    
 }
 
-.home-buttons .btn-cv{
-    background-color: #3b8ff3;
-    color: white;
-    width: 160px;
-    margin-left: 700px;
+.home-buttons {
+    display: flex;
+    justify-content: flex-end; /* Aligns the button to the right */
+    align-items: center; /* Vertically centers the button in the container */
+    padding: 20px; /* Adds padding around the container */
 }
 
-.home-buttons .btn-cv:hover{
-    background-color: white;
-    color: #3b8ff3;
-    width: 200px;
-    transition: 1s;
+.home-buttons .btn-cv {
+    background-color: lightcoral;  /* Button background color */
+    color: white;                  /* Text color */
+    width: 160px;                  /* Fixed width */
+    padding: 10px 20px;            /* Padding inside the button for better touch area */
+    border: none;                  /* No border */
+    border-radius: 5px;            /* Rounded corners */
+    cursor: pointer;               /* Cursor indicates button */
+    transition: background-color 0.3s ease, width 0.3s ease; /* Smooth transition for hover */
+    margin-top: -80px; /* Adjust this value as needed to move the button */
+
+}
+
+.home-buttons .btn-cv:hover {
+    background-color: white;       /* Hover background color */
+    color: #3b8ff3;                /* Hover text color */
+    width: 200px;                  /* Increase width on hover */
+}
+
+.home-buttons .btn-cv {
+    z-index: 1000; /* Ensure it's on top */
 }
